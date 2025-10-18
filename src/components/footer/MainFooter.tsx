@@ -14,8 +14,8 @@ const MainFooter = () => {
                 alt="Busmate logo"
                 // fill
                 className="object-contain"
-                width={16}
-                height={16}
+                width={100}
+                height={100}
               />
             </div>
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
