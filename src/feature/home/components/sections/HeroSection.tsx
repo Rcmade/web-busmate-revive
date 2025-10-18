@@ -16,7 +16,8 @@ const HeroSection = () => {
               College Transportation Made Easy
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
+              {/* <span className="text-primary"> */}
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
                 Busmate
               </span>
               <span className="block mt-2">
