@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React from 'react'
-import { ThemeButton } from '../buttons/ThemeButton';
+import Image from "next/image";
+import React from "react";
+import { ThemeButton } from "../buttons/ThemeButton";
 
 const MainFooter = () => {
   return (
@@ -12,8 +12,10 @@ const MainFooter = () => {
               <Image
                 src="/images/logoTransparent.png"
                 alt="Busmate logo"
-                fill
+                // fill
                 className="object-contain"
+                width={16}
+                height={16}
               />
             </div>
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
@@ -30,6 +32,6 @@ const MainFooter = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default MainFooter
+export default MainFooter;
