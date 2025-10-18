@@ -57,7 +57,7 @@ export default function TechStack() {
           </div>
         </div>
 
-        <div className="mt-12 p-8 bg-background rounded-xl border border-border">
+        {/* <div className="mt-12 p-8 bg-background rounded-xl border border-border">
           <h3 className="text-xl font-bold mb-4">Deployment</h3>
           <div className="flex flex-wrap gap-4">
             <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg text-sm font-semibold text-primary">
@@ -70,7 +70,7 @@ export default function TechStack() {
               100+ Active Users
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
